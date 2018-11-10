@@ -24,7 +24,8 @@ $(document).ready(function() {
      setInterval(function(){
       $(".main-titulo").switchClass("main-titulo","main-titulo-efecto", 800),
       $(".main-titulo").switchClass("main-titulo-efecto","main-titulo", 800)
-    }, 1000);
+    }, 0);
+
 });
 
 // Iniciar el juego al hacer click en el boton.
