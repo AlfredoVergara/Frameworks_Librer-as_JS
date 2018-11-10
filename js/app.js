@@ -22,8 +22,11 @@ var seg=0;
 
 $(document).ready(function() {
      setInterval(function(){
-      $(".main-titulo").switchClass("main-titulo","main-titulo-efecto", 800),
-      $(".main-titulo").switchClass("main-titulo-efecto","main-titulo", 800)
+      $(".main-titulo").switchClass("main-titulo","main-titulo-efecto", 900),
+      $(".main-titulo").switchClass("main-titulo-efecto","main-titulo", 900)
+      $(".main-titulo").switchClass("main-titulo","main-titulo-efecto", 500),
+      $(".main-titulo").switchClass("main-titulo-efecto","main-titulo", 600),
+      $(".main-titulo").switchClass("main-titulo","main-titulo-efecto", 300)
     }, 0);
 
 });
